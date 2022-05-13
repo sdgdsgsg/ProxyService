@@ -278,7 +278,7 @@ server.on('request', (req, res) => {
       writeErr(res, 403, 'Invalid access key');
     }
   } else {
-    writeErr(res, 400, 'proxy-access-key and proxy-target headers are both required');
+    writeErr(res, 400, 'chan proxy');
   }
 });
 
